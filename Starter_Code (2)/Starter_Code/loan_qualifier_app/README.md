@@ -1,4 +1,5 @@
-Qualifier Loan App
+##Qualifier Loan App
+
 This project is built for loan application. Where the user has to insert finacial data and personal data to help determine if an applicant qualifies for a loan. It will also prompt to ask if the user wants to save qualifying loans as a new csv
 
 ---
