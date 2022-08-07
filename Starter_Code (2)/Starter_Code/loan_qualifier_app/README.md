@@ -1,6 +1,5 @@
-# Project Title
-
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+Qualifier Loan App
+This project is built for loan application. Where the user has to insert finacial data and personal data to help determine if an applicant qualifies for a loan. It will also prompt to ask if the user wants to save qualifying loans as a new csv
 
 ---
 
