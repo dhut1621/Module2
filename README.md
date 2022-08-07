@@ -31,7 +31,7 @@ Loan qualification criteria is based on:
         - Debit to Income ratio (calculated)
         - Loan to Value ratio (calculated)
         
-      ![image](https://user-images.githubusercontent.com/107014664/183316094-d81ddbd9-36ed-4e13-be2e-c17e9fff0c3c.png)
+ ![image](https://user-images.githubusercontent.com/107014664/183316094-d81ddbd9-36ed-4e13-be2e-c17e9fff0c3c.png)
   
         
         
