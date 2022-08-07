@@ -35,7 +35,7 @@ Loan qualification criteria is based on:
   
         
         
-bank_data_filtered = filter_max_loan_size(loan, bank_data)
+    bank_data_filtered = filter_max_loan_size(loan, bank_data)
     bank_data_filtered = filter_credit_score(credit_score, bank_data_filtered)
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
