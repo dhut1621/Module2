@@ -51,10 +51,16 @@ Loan qualification criteria is based on:
   ![image](https://user-images.githubusercontent.com/107014664/183316463-b9ec12a8-2eb9-455b-a25d-dcc12c6cd408.png)
 
         
+  ## Contributors
+  
+  David Hutsell-[E-mail](mailto:dhutsellcfncw@gmail.com)
+  
+     
         
-        
-        
-        
+## License        
+
+
+This project is licensed under the UW FinTech Bootcamp summer 2022. All derivates of the work should be open source.       
         
         
         
