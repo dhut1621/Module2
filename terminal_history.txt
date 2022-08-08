@@ -1,0 +1,53 @@
+
+david@dhut MINGW64 ~ (master)
+$ history
+    1  mkdir .ssh
+    2  mkdir.ssh
+    3  c:\Users\davidtest
+    4  mkdir .ssh
+    5  conda --version
+    6  conda update conda
+    7  cd
+    8  ls
+    9  pwd
+   10  conda --version
+   11  conda update conda
+   12  cd
+   13  git checkout -b new-branch name
+   14  git checkout -b tester
+   15  ~git
+   16  git checkout -b test
+   17  git checkout -b test
+   18  git push origin main
+   19  git push origin main
+   20  git checkout -b test
+   21  egit status
+   22  git status
+   23  git (demo2)
+   24  git branch test
+   25  ls
+   26  git init
+   27  gir checkout -b test
+   28  git checkout -b test
+   29  git branch --list
+   30  git cheout -b test
+   31  git checkout -b test
+   32  git branch
+   33  touch style.css
+   34  git status
+   35  git add
+   36  git add .
+   37  git add -A
+$
+   39  git checkout test
+   40  conda activate dev
+   41  conda activate dev
+   42  jupyter lab
+   43  cd
+   44  ls
+   45  anaconda3/
+   46  conda --version
+   47  conda init bash
+   48  base
+   49  terminal history
+   50  git log
