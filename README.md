@@ -34,7 +34,9 @@ Loan qualification criteria is based on:
  ![image](https://user-images.githubusercontent.com/107014664/183316094-d81ddbd9-36ed-4e13-be2e-c17e9fff0c3c.png)
   
         
-        
+  This application will ask the user its financial data to match them to banks that they qualify for or it won't show any if they don't qualify. 
+  
+  
     bank_data_filtered = filter_max_loan_size(loan, bank_data)
     bank_data_filtered = filter_credit_score(credit_score, bank_data_filtered)
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
@@ -43,6 +45,22 @@ Loan qualification criteria is based on:
     print(f"Found {len(bank_data_filtered)} qualifying loans")
 
     return bank_data_filtered
+  
+  The application will use the code below to see if user qualifies for a loan. It will look at the Information within the csv file to pull the data.
+  
+     qualifying_loans=questionary.confirm("Do you want to save your qualifying loans").ask()
+    csvpath = Path('qualifying_loans.csv')
+    save_csv(csvpath, qualifying_loans)
+
+def save_csv(csvpath):
+    with open(csvpath, "r") as csvfile:
+        data = [filter_credit_score,filter_debt_to_income,filter_loan_to_value,filter_max_loan_size]
+        csvreader = csv.reader(csvfile, delimiter=",")
+        next(csvreader)
+
+        for row in csvreader:
+            data.append(row)
+        return data
         
         
         
